@@ -21,6 +21,8 @@ section{
     overflow-y: scroll;
 }
 
+/*Presentation*/
+
 #presentation{
     margin-top: 0;
     color: #ffffff;
@@ -30,6 +32,8 @@ section{
     border-radius: 50%;
     width: 55%;
 }
+
+/*Skills*/
 
 #skills{
     height: 30vh;
@@ -44,11 +48,28 @@ section{
 .skills-img h5 {
     filter:invert(100%);
 }
+
 .owl-item{
     display: flex;
     justify-content: center;
 }
 
+/*Projects*/
+
+.project-link{
+    width: fit-content;
+    text-decoration: none;
+    color: #ffffff;
+    border: #ffffff solid 1px;
+    margin-top: 2rem;
+    padding: .5rem .8rem;
+}
+
+.project-link:hover{
+    color: #ffffff;
+}
+
+/*Phtography*/
 
 .title-ph{
     display: flex;
@@ -80,6 +101,8 @@ section{
 .ph-img:hover{
     filter: none;
 }
+
+/*Contact*/
 
 #contact{
     margin: 0;
