@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: #ffffff;
+    background: linear-gradient(to bottom, #F8CDDA, #1D2B64);
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.fullpage{
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+#presentation{
+    margin-top: 0;
+    color: #ffffff;
+}
+
+.profile-pic{
+    border-radius: 50%;
+    width: 55%;
+}
+
+#skills{
+    height: 30vh;
+   
+}
+
+.skills-img {
+    width: 10rem;
+    filter:invert(100%);
+}
+
+.skills-img h5 {
+    filter:invert(100%);
+}
+.owl-item{
+    display: flex;
+    justify-content: center;
+}
+
+
+.title-ph{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+.ph-link{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ph-link a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.ph-link a:hover{
+    color: #ffffff;
+    text-decoration:underline #E55D87 2px;
+}
+.ph-img{
+    filter: grayscale(100%);
+    width: 100%;
+}
+
+.ph-img:hover{
+    filter: none;
+}
+
+#contact{
+    margin: 0;
+    color: #ffffff;
+}
+
+.contact-mail{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 4rem;
+}
+
+.contact-mail:hover{
+    color: #ffffff;
+}
+
+.contact-list{
+    padding: 0;
+    list-style-type: none;
+}
+
+.icons-logo{
+    padding: .2rem;
+    color: #ffffff;
+    font-size: 1.6rem;
+}
+
+/*Media queries*/
+
+@media (max-width: 780px) {
+    
+    .contact-mail {
+      font-size: 2.5rem;
+    }
+  }
